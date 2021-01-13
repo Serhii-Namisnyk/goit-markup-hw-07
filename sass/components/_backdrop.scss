@@ -106,7 +106,7 @@
   }
 }
 .modal_form-policy-text::before {
-  display: inline-block;
+  display: block;
   width: 16px;
   height: 15px;
   border: 1px solid black;
@@ -121,13 +121,16 @@
   background-size: contain;
 }
 .modal_form-policy-text {
-  font-family: var(--main-font);
+  display: flex;
+  justify-content: center;
+  letter-spacing: 0.03em;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
-  color: var(--primaru-text-color);
+  line-height: 1.167;
   margin-bottom: 30px;
+  color: var(--primaru-text-color);
+  font-family: var(--main-font);
 }
 
 .modal_form-policy-link {
