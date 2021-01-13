@@ -225,7 +225,7 @@ img {
 /*================ hero ==================*/
 .hero {
   background-color: #2f303a;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-img/img.jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero-img/img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 200px;
